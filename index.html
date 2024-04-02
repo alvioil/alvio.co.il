@@ -1687,6 +1687,10 @@ min-width: 100%;"onload="setCurrentDateTime()">
     <script src="assets/js/theme.js"></script>
     <script src="index.js" type="module"></script>
             <script src="products.js"></script>
+            <script>
+                fetch('./products.js')
+                .then(res => res.json())
+            </script>
     <!-- Scripts -->
 </body>
 
