@@ -1933,7 +1933,7 @@
 
 
 
-import products from "./products.js";
+import products from "https://alvioil.github.io/alvio.co.il/products.js";
 const fetchProducts = async () => {
   try {
     const response = await fetch('./products.js'); // استدعاء الملف المحلي
