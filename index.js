@@ -1,4 +1,4 @@
-import products from '/products.js';
+import products from 'https://alvioil.github.io/alvio.co.il/products.js';
 import cart from './cart.js';
 
 let app = document.getElementById('app');
